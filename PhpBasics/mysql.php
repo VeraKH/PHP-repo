@@ -13,7 +13,6 @@
 	 		" (" . mysqli_connect_errno() . ") "
 	   	);
 	}
-
 ?>
 
 <?php
