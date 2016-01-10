@@ -1,5 +1,9 @@
+<?php require_once ("../includes/functions.php"); ?>
+<?php require_once ("../includes/validation_functions.php"); ?>
+
 <?php 
-require_once ("validation_functions.php");
+
+// require_once ("validation_functions.php");
 
 	function RedirectTo($new_location){
 	 header("Location: " .  $new_location);
